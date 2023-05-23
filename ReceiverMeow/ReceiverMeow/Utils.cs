@@ -67,9 +67,9 @@ namespace ReceiverMeow
             Setting.TcpServerEnable = Setting.TcpServerEnable;
 
             //更新脚本
-            CheckLuaUpdate();
+            //CheckLuaUpdate();
 
-            CheckUpdate();
+            //CheckUpdate();
 
             //tcp队列定时发送检测
             LuaEnv.TcpServer.SendList();
