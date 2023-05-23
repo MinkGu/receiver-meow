@@ -23,9 +23,7 @@ namespace ReceiverMeow
         /// <param name="s">日志信息</param>
         public static void Debug(string m, string s)
         {
-#if DEBUG
-            Console.WriteLine($"{v(0)}{GetTime()}{v(30)}{v(47)}[调试]{v(0)}[{m}]{s}{v(0)}");
-#endif
+
         }
 
         /// <summary>
